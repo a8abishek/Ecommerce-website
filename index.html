@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css link here-->
+    <link rel="stylesheet" href="style.css">
+    <!--boostrap link here-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!--nof-part-->
+    <div class="nof-part d-flex justify-content-between px-5 bg-success" style="align-items: center;  color: white;">
+        <div class="nof-text">
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones-icon lucide-headphones"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg>(91)236735828</span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-open-icon lucide-mail-open"><path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"/><path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"/></svg> abishek@gmail.com</span>
+        </div>
+        <div class="nof-text2">
+            <span>USA <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></span>
+            <span>English <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg></span>
+            <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-icon lucide-lock"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>| $0</button>
+        </div>
+    </div>
+    <!--header-containers-->
+    <header>
+        <!--navbar (logo&name,list-container,input-container)-->
+        <nav class="d-flex justify-content-between mx-5 pt-3 flex-wrap" style="align-items: center;">
+        <!--logo-nav(logo&name,list-container)-->
+        <div class="logo-nav d-flex" style="align-items: center;">
+            <!--logo&name-->
+            <div class="brand-content d-flex" style="align-content: center;">
+                <img src="/asses/logo-removebg-preview.png" alt="logo" width="40px">
+                <h4 class="mt-2">NAMM <br>ORGANICE<br><span>PRODUCT STORE</span></h4>
+            </div>
+            <!--list-container (Home,shop,About,Pages,Blog,Contact)-->
+            <div class="list-container d-flex ms-5">
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--input-container(Searchbar,Wishlist,Rigister/Login)-->
+        <div class="input-container d-flex flex-wrap ms-5">
+            <!--searchbar&button-->
+            <div class="search-container d-flex flex-wrap">
+            <input type="search" placeholder="Type Here...">
+            <button type="button">Search</button>
+            </div>
+            <!--svg-container-->
+            <div class="svg-container">
+                <ul class="d-flex">
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px">
+                    <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                    </svg> Wishlist</li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16px">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                    </svg> Register/Login</li>
+                </ul>
+            </div>
+        </div>
+        </nav><!--nav-container completed-->
+        <!--name-shop-->
+        <div class="name-shop flex-wrap">
+            <h1>Shop</h1>
+            <h2 id="n-text">Home/Shop</h2>
+            </div>
+            <!--masking-->
+            <div class="masking"></div>
+    </header>
+    <!--hero-container-->
+    <div class="layment m-5">
+        <div class="hero-container">
+            <em>Where health is organice</em>
+            <h4>Shop Our Organice Products</h4>
+            <div class="categ-container d-flex justify-content-center flex-wrap">
+                <!--categ1-->
+                <div class="box1">
+                    <img src="https://plus.unsplash.com/premium_photo-1664302148512-ddea30cd2a92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHZlZ2V0YWJsZXxlbnwwfDB8MHx8fDA%3D" alt="vegetables" width="150px">
+                    <span id="b-color">Vegetables</span>
+                </div>
+                <!--categ2-->
+                <div class="box1">
+                    <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJ1aXRzfGVufDB8MHwwfHx8MA%3D%3D" alt="furtis" width="150px">
+                    <span>Furtis</span>
+                </div>
+                <!--categ3-->
+                <div class="box1">
+                    <img src="https://images.unsplash.com/photo-1634497173458-59bf9b7fe07b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fresh Nuts" width="150px">
+                    <span>Fresh Nuts</span>
+                </div>
+                <!--categ4-->
+                <div class="box1">
+                    <img src="https://images.unsplash.com/photo-1622597467836-f3285f2131b8?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Juices" width="150px" height="100px">
+                    <span>Juices</span>
+                </div>
+                <!--categ5-->
+                <div class="box1">
+                    <img src="https://images.unsplash.com/photo-1568405284653-65eca506b080?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGVnZ3N8ZW58MHwwfDB8fHww" alt="Eggs" width="150px">
+                    <span>Eggs</span>
+                </div>
+                <!--categ6-->
+                <div class="box1">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhlYWx0aHl8ZW58MHwwfDB8fHww" alt="Healthy" width="150px">
+                    <span>Healthy</span>
+                </div>
+            </div>
+        </div> <br>
+        <!--content-page-->
+        <div class="content-page">
+            <div class="text1">
+                <h5>Showing 1-10 of 85 item</h5>
+            </div>
+            <div class="butt-container">
+                <button><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grip-vertical-icon lucide-grip-vertical"><circle cx="9" cy="12" r="1"/><circle cx="9" cy="5" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="19" r="1"/></svg> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grip-icon lucide-grip"><circle cx="12" cy="5" r="1"/><circle cx="19" cy="5" r="1"/><circle cx="5" cy="5" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/><circle cx="12" cy="19" r="1"/><circle cx="19" cy="19" r="1"/><circle cx="5" cy="19" r="1"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-list-icon lucide-list"><path d="M3 5h.01"/><path d="M3 12h.01"/><path d="M3 19h.01"/><path d="M8 5h13"/><path d="M8 12h13"/><path d="M8 19h13"/></svg></button>
+                <button>Default Soting <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg></button>
+            </div>
+        </div>
+        <hr style="margin-inline: 14%; color: gray;">
+        <br>
+        <!--product-container-->
+        <div class="product-container">
+            <!--product1-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1501645963220-a20faa7494ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                <h5>Fresh organice Tomato</h5>
+                <p>Actual price $65</p>
+            </div>
+            <!--product2-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1632992468737-54880593aada?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Capsicum</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product3-->
+            <div class="product">
+                <img src="https://plus.unsplash.com/premium_photo-1701967601804-a0e3b8e1c3ee?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Broccoli</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product4-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1651793440182-090126813ac0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px" >
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Beans </h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product5-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1600807644626-fb3c8c8ba40d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Onions</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product6-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1579446155503-f01a57693728?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Carrot</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product7-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1693500387488-e2ca0aa70019?q=80&w=1148&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Cabbage</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product8-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1584699006710-3ad3b82fce7f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5 id="h-s">Fresh organice SweetPotato</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product9-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1633872409861-dbbbf994d094?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Pumpkin</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product10-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1608061609218-0f39494d6d7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fENvcm4lMjB3aXRoJTIwd2hpbGUlMjBiZ3xlbnwwfDB8MHx8fDA%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Corn</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product11-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1593026122758-19bebc625104?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Radish</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product12-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1579843692771-027a4a8fda48?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Brinjal</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product13-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1751777924821-17c1121128b6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Beetroot</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product14-->
+            <div class="product">
+                <img src="https://media.istockphoto.com/id/2027996201/photo/fresh-green-large-and-small-cucumbers-with-cucumber-slices-on-a-wooden-cutting-board-isolated.jpg?s=612x612&w=0&k=20&c=4U8sIEf1z_KH1zeCBLi9Hh2DHNabsIiCQSuMwZG3TLE=" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Cucumber</h5>
+                    <p>Actual price $65</p>
+            </div>
+            <!--product15-->
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1739903760973-4731a8e79a03?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img"width="200px">
+                <span>1kg</span>
+                <div class="s-name">
+                    <span>Vegetables</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5cb76b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-stop-icon lucide-square-stop"><rect width="18" height="18" x="3" y="3" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+                </div>
+                    <h5>Fresh organice Bitter Gourd</h5>
+                    <p>Actual price $65</p>
+            </div>
+        </div><!--product-container completed-->
+        <!--page-no-->
+        <div class="page-no d-flex mt-5">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous" style="border:none">
+                    <span aria-hidden="true" style="color: black;">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#" style="color: black; border: none;">1</a></li>
+                <li class="page-item"><a class="page-link" href="#" style="color: black; border: none;">2</a></li>
+                <li class="page-item"><a class="page-link" href="#" style="color: black; border: none;">3</a></li>
+                <li class="page-item"><a class="page-link" href="#" style="color: black; border: none;">.........35</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next" style="border:none">
+                    <span aria-hidden="true" style="color: black;">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div><!--page-no completed--> <br><br>
+    </div> <!--layment completed-->
+    <!--footer-containter-->
+     <div class="footer-containter pt-5">
+            <!--text-container1(logo&name and paratext)-->
+            <div class="text-container1">
+                <div class="brand-content d-flex" style="align-content: center;">
+                    <img src="/asses/logo-removebg-preview.png" alt="logo" width="40px">
+                    <h4 class="mt-2">NAMM <br>ORGANICE<br><span>PRODUCT STORE</span></h4>
+                </div>  
+                <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit,Sit nisi veritatis atque.</p>
+            </div>
+            <!--lists-container(upage-list,help-list,contact-list,s_information-list,download-list)-->
+            <div class="lists-container">
+                <!--upage-list-->
+                <div class="upage-list">
+                    <ul class="remove-list">
+                        <span class="li-span">Usefull Pages</span>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                        <li>Help Center</li>
+                        <li>Carrer</li>
+                        <li>Police</li>
+                        <li>Flash sale</li>
+                    </ul>
+                </div>
+                <!--help-list-->
+                <div class="help-list">
+                    <ul class="remove-list">
+                        <span class="li-span">Help Center</span>
+                        <li>Payments</li>
+                        <li>Shopping</li>
+                        <li>Product Returns</li>
+                        <li>FAQ</li>
+                        <li>Checkout</li>
+                        <li>Other Issues</li>
+                    </ul>
+                </div>
+                <!--contact-list-->
+                <div class="contact-list">
+                    <ul class="remove-list ">
+                        <span class="li-span ">Contacts</span>
+                        <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>176 W street,name,new york <br> <span class="ms-3">Ny10014</span></li>
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-call-icon lucide-phone-call"><path d="M13 2a9 9 0 0 1 9 9"/><path d="M13 6a5 5 0 0 1 5 5"/><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>(123)456-45-78 <br> <span class="ms-3">(123)878-45-78</span></li>
+                        <li style="align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>sale@gmail.com</li>
+                    </ul>
+                </div>
+                <!--s_information-list-->
+                <div class="s_information-list">
+                    <ul class="remove-list">
+                        <span class="li-span">Store Information</span>
+                        <li>Store information</li>
+                        <li>About Store</li>
+                        <li>Bestsellers</li>
+                        <li>Lotest Products</li>
+                        <li>New Discounts</li>
+                        <li>Sale Products</li>
+                    </ul>
+                </div>
+                <!--download-list-->
+                <div class="download-list">
+                    <ul class="remove-list">
+                        <span class="li-span">Download App</span>
+                        <li><button type="button" class="btn btn-outline-light">Google Play</button></li>
+                        <li><button type="button" class="btn btn-outline-light">App Store</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--js link here-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
