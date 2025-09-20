@@ -232,15 +232,6 @@ nav{
 }
 }
  
- @include media-breakpoint-only(lg) { 
-    .product-container{
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
-    gap: 10px;
-    justify-content: center;
-  }
-}
-
    @media (min-width:100px) and (max-width:422.98px) {
     .product-container{
     display: grid;
